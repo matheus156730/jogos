@@ -423,7 +423,6 @@ Você terá que me vencer em um jogo complexo que requer altíssimas habilidades
   print('\n\033[0;33;49m-Esfinge: \033[1;39;49mVamos jogar! Escolha entre Pedra, Papel e Tesoura!')
   jokenpo_saida = 0
   jokenpo_escolha_do_pc = re.sub("[]'[]", '', str(random.choices(['Pedra', 'Tesoura', 'Papel'])))
-  print(jokenpo_escolha_do_pc)
   jokenpo_escolha_do_jogador = input().strip().capitalize()
   while jokenpo_escolha_do_jogador != 'Pedra' and jokenpo_escolha_do_jogador != 'Papel' and jokenpo_escolha_do_jogador != 'Tesoura':
     print('\n\033[0;33;49m-Esfinge: \033[1;39;49mNo JOKENPÔ só é permitido escolher entre Pedra, Papel ou Tesoura!')
@@ -434,7 +433,6 @@ Você terá que me vencer em um jogo complexo que requer altíssimas habilidades
         print('\n\033[0;33;49m-Esfinge: \033[1;39;49mEMPATAMOS! Você escolheu {} e eu escolhi {}! Vamos jogar de novo!'
 .format(jokenpo_escolha_do_jogador, jokenpo_escolha_do_pc))
         jokenpo_escolha_do_pc = re.sub("[]'[]", '', str(random.choices(['Pedra', 'Tesoura', 'Papel'])))
-        print(jokenpo_escolha_do_pc)
         jokenpo_escolha_do_jogador = input().strip().capitalize()
         while jokenpo_escolha_do_jogador != 'Pedra' and jokenpo_escolha_do_jogador != 'Papel' and jokenpo_escolha_do_jogador != 'Tesoura':
           print('\n\033[0;33;49m-Esfinge: \033[1;39;49mNo JOKENPÔ só é permitida a escolha de Pedra, Papel ou Tesoura!')
@@ -443,7 +441,6 @@ Você terá que me vencer em um jogo complexo que requer altíssimas habilidades
         print('\n\033[0;33;49m-Esfinge: \033[1;31;49mGANHEI! \033[1;39;49mVocê escolheu {} e eu escolhi {}! Jogaremos novamente!'
 .format(jokenpo_escolha_do_jogador, jokenpo_escolha_do_pc))
         jokenpo_escolha_do_pc = re.sub("[]'[]", '', str(random.choices(['Pedra', 'Tesoura', 'Papel'])))
-        print(jokenpo_escolha_do_pc)
         jokenpo_escolha_do_jogador = input().strip().capitalize()
         while jokenpo_escolha_do_jogador != 'Pedra' and jokenpo_escolha_do_jogador != 'Papel' and jokenpo_escolha_do_jogador != 'Tesoura':
           print('\n\033[0;33;49m-Esfinge: \033[1;39;49mNo JOKENPÔ só é permitida a escolha de Pedra, Papel ou Tesoura!')
@@ -458,7 +455,6 @@ Você terá que me vencer em um jogo complexo que requer altíssimas habilidades
         print('\n\033[0;33;49m-Esfinge: \033[1;39;49mEMPATAMOS! Você escolheu {} e eu escolhi {}! Vamos jogar de novo!'
 .format(jokenpo_escolha_do_jogador, jokenpo_escolha_do_pc))
         jokenpo_escolha_do_pc = re.sub("[]'[]", '', str(random.choices(['Pedra', 'Tesoura', 'Papel'])))
-        print(jokenpo_escolha_do_pc)
         jokenpo_escolha_do_jogador = input().strip().capitalize()
         while jokenpo_escolha_do_jogador != 'Pedra' and jokenpo_escolha_do_jogador != 'Papel' and jokenpo_escolha_do_jogador != 'Tesoura':
           print('\n\033[0;33;49m-Esfinge: \033[1;39;49mNo JOKENPÔ só é permitida a escolha de Pedra, Papel ou Tesoura!')
@@ -467,7 +463,6 @@ Você terá que me vencer em um jogo complexo que requer altíssimas habilidades
         print('\n\033[0;33;49m-Esfinge: \033[1;31;49mGANHEI! \033[1;39;49mVocê escolheu {} e eu escolhi {}! Jogaremos novamente!'
 .format(jokenpo_escolha_do_jogador, jokenpo_escolha_do_pc))
         jokenpo_escolha_do_pc = re.sub("[]'[]", '', str(random.choices(['Pedra', 'Tesoura', 'Papel'])))
-        print(jokenpo_escolha_do_pc)
         jokenpo_escolha_do_jogador = input().strip().capitalize()
         while jokenpo_escolha_do_jogador != 'Pedra' and jokenpo_escolha_do_jogador != 'Papel' and jokenpo_escolha_do_jogador != 'Tesoura':
           print('\n\033[0;33;49m-Esfinge: \033[1;39;49mNo JOKENPÔ só é permitida a escolha de Pedra, Papel ou Tesoura!')
@@ -482,7 +477,6 @@ Você terá que me vencer em um jogo complexo que requer altíssimas habilidades
         print('\n\033[0;33;49m-Esfinge: \033[1;31;49mGANHEI! \033[1;39;49mVocê escolheu {} e eu escolhi {}! Jogaremos novamente!'
 .format(jokenpo_escolha_do_jogador, jokenpo_escolha_do_pc))
         jokenpo_escolha_do_pc = re.sub("[]'[]", '', str(random.choices(['Pedra', 'Tesoura', 'Papel'])))
-        print(jokenpo_escolha_do_pc)
         jokenpo_escolha_do_jogador = input().strip().capitalize()
         while jokenpo_escolha_do_jogador != 'Pedra' and jokenpo_escolha_do_jogador != 'Papel' and jokenpo_escolha_do_jogador != 'Tesoura':
           print('\n\033[0;33;49m-Esfinge: \033[1;39;49mNo JOKENPÔ só é permitida a escolha de Pedra, Papel ou Tesoura!')
@@ -491,7 +485,6 @@ Você terá que me vencer em um jogo complexo que requer altíssimas habilidades
         print('\n\033[0;33;49m-Esfinge: \033[1;39;49mEMPATAMOS! Você escolheu {} e eu escolhi {}! Vamos jogar de novo!'
 .format(jokenpo_escolha_do_jogador, jokenpo_escolha_do_pc))
         jokenpo_escolha_do_pc = re.sub("[]'[]", '', str(random.choices(['Pedra', 'Tesoura', 'Papel'])))
-        print(jokenpo_escolha_do_pc)
         jokenpo_escolha_do_jogador = input().strip().capitalize()
         while jokenpo_escolha_do_jogador != 'Pedra' and jokenpo_escolha_do_jogador != 'Papel' and jokenpo_escolha_do_jogador != 'Tesoura':
           print('\n\033[0;33;49m-Esfinge: \033[1;39;49mNo JOKENPÔ só é permitida a escolha de Pedra, Papel ou Tesoura!')
