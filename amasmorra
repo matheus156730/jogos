@@ -768,6 +768,5 @@ Só há um problema... A cúpula está trancada e há três opções de chave di
 
       if elevador == 'C':
         ganhou()
-
 #--------------------------------------------------------------CHAMADA PRINCIPAL---------------------------------------------------------------------
 sala_principal()
