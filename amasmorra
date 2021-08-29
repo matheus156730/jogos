@@ -151,7 +151,8 @@ um homem morto usando uma máscara de gás. Nunca se sabe quando uma máscara de
   elif pegar == 'D':
     itens['y'] = 0
     print('\n\033[0;34;49m-Voz misteriosa: \033[1;39;49mFaltou coragem, escolhido?')
-
+    
+  sleep(4)
   print('''\033[0;34;49m-Voz misteriosa: \033[1;39;49mAgora há mais uma escolha a ser feita... Escolha com sabedoria, todos contam com você!
 À direita, a próxima sala parece calma, bem iluminada e com som de cachoeira... Um paraíso...
 Enquanto à esquerda, barulhos de grunhido chamam atenção atrás da porta...
