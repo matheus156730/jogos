@@ -352,7 +352,7 @@ def sala_do_armeiro():
   sleep(3)
   print('''\n\033[0;33;49m-Armeiro: \033[1;39;49mQue bom! Até que enfim alguém apareceu... Você deve ser o destinado a trazer a cura.
 Bem... Eu já tentei chegar à sala da vacina e não tive coragem suficiente para seguir o caminho todo.''')
-  sleep(6)
+  sleep(7)
   print('''\033[0;33;49m-Armeiro: \033[1;39;49mJá que você está decidido a ir até a vacina, o máximo que posso fazer para ajudar é te dar uma arma...
 Ela está carregada com balas de tranquilizante! Garanto que pode ser útil a você...''')
   print('\n\033[4;30mAperte "P" para pegar a arma do armeiro e "N" para ignorar!')
