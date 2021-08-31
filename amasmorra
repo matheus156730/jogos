@@ -763,4 +763,12 @@ Só há um problema... A cúpula está trancada e há três opções de chave di
       if elevador == 'C':
         ganhou()
 #--------------------------------------------------------------CHAMADA PRINCIPAL---------------------------------------------------------------------
-sala_principal()
+print('\n\033[4;30mAPERTE "S" PARA INICIAR O JOGO!')
+comando_iniciar = input().upper().strip()
+
+while comando_iniciar != 'S':
+  print('\n\033[0;34;49m-Voz misteriosa: \033[1;39;49mInicie o jogo, escolhido! Você não vai se arrepender!')
+  comando_iniciar = input().upper().strip()
+
+if comando_iniciar == 'S':
+  sala_principal()
