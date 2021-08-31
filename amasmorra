@@ -39,7 +39,7 @@ def game_over():
   restart = input().upper().strip()
 
   while restart != 'S' and restart != 'N':
-    print('\033[4;30mAPERTE "S" PARA JOGAR NOVAMENTE E "N" SE QUISER ENCERRAR O JOGO!')
+    print('\n\033[4;30mAPERTE "S" PARA JOGAR NOVAMENTE E "N" SE QUISER ENCERRAR O JOGO!')
     restart = input().upper().strip()
 
   if restart == 'S':
@@ -101,7 +101,7 @@ Faça sua escolha (D/E)!''')
   principal = input().upper().strip()
 
   while principal != 'D' and principal != 'E':
-    print('\033[0;34;49m-Voz misteriosa: \033[1;39;49mPreste atenção Escolhido! As únicas escolhas possíveis são D ou E!')
+    print('\n\033[0;34;49m-Voz misteriosa: \033[1;39;49mPreste atenção Escolhido! As únicas escolhas possíveis são D ou E!')
     principal = input().upper().strip()
 
   if principal == 'D':
@@ -121,7 +121,7 @@ Faça sua escolha (D/E)!''')
   escura = input().upper().strip()
 
   while escura != 'D' and escura != 'E':
-    print('\033[0;34;49m-Voz misteriosa: \033[1;39;49mPreste atenção Escolhido! As únicas escolhas possíveis são D ou E!')
+    print('\n\033[0;34;49m-Voz misteriosa: \033[1;39;49mPreste atenção Escolhido! As únicas escolhas possíveis são D ou E!')
     escura = input().upper().strip()
 
   if escura == 'D':
@@ -161,7 +161,7 @@ Qual será sua escolha (D/E)?''')
   cadaver = input().upper().strip()
 
   while cadaver != 'D' and cadaver != 'E':
-    print('\033[0;34;49m-Voz misteriosa: \033[1;39;49mPreste atenção Escolhido! As únicas escolhas possíveis são D ou E!')
+    print('\n\033[0;34;49m-Voz misteriosa: \033[1;39;49mPreste atenção Escolhido! As únicas escolhas possíveis são D ou E!')
     cadaver = input().upper().strip()
 
   if cadaver == 'D':
@@ -252,7 +252,7 @@ def sala_contaminada():
 Você acha que foi corajoso até aqui, escolhido?''')
 
   if itens['y'] == 1:
-    sleep(3)
+    sleep(4)
     print('''\033[0;34;49m-Voz misteriosa: \033[1;39;49mVocê será recompensado pela coragem que teve ao pegar a máscara daquele cadáver! 
 Agora é a hora de usá-la!''')
     print('\n\033[4;30mPressione "C" para colocar a máscara e "N" para ignorar!')
@@ -310,7 +310,7 @@ OBS: A SENHA FOI CITADA NA INTRODUÇÃO DO JOGO!''')
       game_over2()
 
   elif itens['y'] == 0:
-    sleep(5)
+    sleep(4)
     print('''\033[0;34;49m-Voz misteriosa: \033[1;39;49mA máscara daquele cadáver seria bem útil agora, hein? 
 Mais coragem na próxima vez...''')
     print('\n\033[1;31;49mVOCÊ FOI CONTAMINADO PELO VÍRUS MORTAL... NINGUÉM SOBREVIVE A ESSE MALDITO VÍRUS SEM MÁSCARA!')
@@ -601,7 +601,7 @@ def sala_do_urso():
 Ele parece estar faminto, a comida é bem escassa aqui embaixo... ''')
 
   if itens['z'] == 0:
-    sleep(3)
+    sleep(4)
     print('\033[0;34;49m-Voz misteriosa: \033[1;39;49mPelo visto o armeiro estava certo... Uma arma seria muito útil...')
     print('\n\033[1;31;49mVOCÊ FOI DEVORADO PELO URSO... NÃO TEVE NENHUMA CHANCE CONTRA A FERA!')
     print('\n\033[4;30mVocê deve retornar ao início do jogo para que faça escolhas diferentes e consiga progredir nessa fase!\n')
@@ -768,6 +768,7 @@ comando_iniciar = input().upper().strip()
 
 while comando_iniciar != 'S':
   print('\n\033[0;34;49m-Voz misteriosa: \033[1;39;49mInicie o jogo, escolhido! Você não vai se arrepender!')
+  print('\n\033[4;30mAPERTE "S" PARA INICIAR O JOGO!')
   comando_iniciar = input().upper().strip()
 
 if comando_iniciar == 'S':
