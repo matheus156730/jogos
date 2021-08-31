@@ -29,7 +29,7 @@ sleep(5)
 print('VOCÊ!!! O ESCOLHIDO, É O RESPONSÁVEL POR ADENTRAR A PERIGOSA MASMORRA E TRAZER A CURA PARA TODA A HUMANIDADE!\n\n')
 sleep(7)
 print('\033[ ' * 25 + '\033[1;34;107mA MASMORRA' + '\033[ ' * 25)
-print('\n\n\033[0;34;49m-Voz misteriosa: \033[1;39;49mBEM VINDO À MASMORRA, ESCOLHIDO! SIGA SUA INTUIÇÃO, TODOS CONTAM COM VOCÊ!\n')
+print('\n\n\033[0;34;49m-Voz misteriosa: \033[1;39;49mBEM VINDO À MASMORRA, ESCOLHIDO! SIGA SUA INTUIÇÃO, TODOS CONTAM COM VOCÊ!')
 
 #----------------------------------------------FUNÇÃO GAME OVER - SALA PRINCIPAL---------------------------------------------------------------------
 def game_over():
