@@ -534,13 +534,13 @@ def sala_do_cristal():
   print('\n\033[0;30;107m\033[1;30;107mSALA DO CRISTAL')
   print('''\033[0;34;49m-Voz misteriosa: \033[1;39;49mCuidado com os olhos, escolhido! A luz que vem dessa joia é extremamente forte...
 Parece que os austríacos valorizavam muito essa pedra, a ponto de deixá-la em um pedestal tão protegido e em uma sala tão profunda na masmorra.''')
-  sleep(7)
+  sleep(8)
   print('''\033[0;34;49m-Voz misteriosa: \033[1;39;49mPara prosseguir, você deve pegar o cristal e colocá-lo no seu local de encaixe 
 na porta da próxima sala... Sem o cristal não há como sair dessa sala.''')
-  sleep(7)
+  sleep(8)
   print('''\033[0;34;49m-Voz misteriosa: \033[1;39;49mNão é tão simples como parece! Há um sistema de segurança desenvolvido pelos austríacos para
 detectar qualquer tipo de aproximação do cristal.... Você deve acertar a senha para chegar até ele!''')
-  sleep(7)
+  sleep(8)
   print('\033[0;34;49m-Voz misteriosa: \033[1;39;49mEm caso de erro na senha, o sistema te eliminará, escolhido! Tenha cuidado!')
   sleep(5)
   print('\033[0;34;49m-Voz misteriosa: \033[1;39;49mA senha tem 5 caracteres e é o nome do país onde todo o caos se iniciou!')
@@ -557,7 +557,7 @@ detectar qualquer tipo de aproximação do cristal.... Você deve acertar a senh
     senha2 = input().strip().capitalize()
 
     if senha2 != 'China':
-      print('\n\033[1;31;49mSENHA INCORRETA! VOCÊ FOI ELIMINADO PELO SISTEMA DE SEGURANÇA!')
+      print('\n\033[0;34;49m\033[1;31;49mSENHA INCORRETA! VOCÊ FOI ELIMINADO PELO SISTEMA DE SEGURANÇA!')
       game_over3()
 
     elif senha2 == 'China':
@@ -579,7 +579,7 @@ OBS: A SENHA FOI CITADA NA INTRODUÇÃO DO JOGO!''')
     senha2 = input().strip().capitalize()
 
     if senha2 != 'China':
-      print('\n\033[1;31;49mSENHA INCORRETA! VOCÊ FOI ELIMINADO PELO SISTEMA DE SEGURANÇA!')
+      print('\n\033[0;34;49m\033[1;31;49mSENHA INCORRETA! VOCÊ FOI ELIMINADO PELO SISTEMA DE SEGURANÇA!')
       game_over3()
 
     elif senha2 == 'China':
